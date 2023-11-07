@@ -1,0 +1,132 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvvrnvvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
+
+U add%b			add.adb			554823B4 PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+W ada.interrupts.names%s  a-intnam.ads		a-intnam.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W conductor%s		conductor.adb		conductor.ali  ED
+W devices%s		devices.adb		devices.ali
+W interfaces%s		interfac.ads		interfac.ali
+W kernel%s		kernel.ads		kernel.ali
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali
+W pulse_interrupt%s	pulse_interrupt.adb	pulse_interrupt.ali
+W system%s		system.ads		system.ali
+W system.interrupts%s	s-interr.adb		s-interr.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.single_entry%s  s-tposen.adb  s-tposen.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+W tools%s		tools.adb		tools.ali  ED
+W vehiculo%s		vehiculo.adb		vehiculo.ali
+
+U add%s			add.ads			204085E0 NE PK IL
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-interr.ads		20000718095948 6619C24E
+D a-intnam.ads		20010312182047 4ACDF976
+D a-reatim.ads		20000718095948 5DBAB303
+D a-retide.ads		20000718095948 7F3C479C
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D add.ads		20231106142435 204085E0
+D add.adb		20231106150943 672DF8E3
+D conductor.ads		20231106152559 46A44C6A
+D devices.ads		20231106141541 76B1519D
+D interfac.ads		20000718095948 0357E00A
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-serial_output.ads  20010312182047 16AD38F4
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D pulse_interrupt.ads	20231106141541 39938A04
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-interr.ads		20010312182047 0AE53449
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-taprob.ads		20000718095949 1D5668B3
+D s-tposen.ads		20010312182047 5865B402
+D s-tasres.ads		20000718095949 62B4C0AB
+D s-tarest.ads		20000718095949 1D177686
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20231106141541 7C34CB2C
+D unchconv.ads		20000718095949 72DC4539
+D vehiculo.ads		20231106152552 4CA8CA17
+X 1 ada.ads
+18U9*Ada 12|2r6 2r25 8r6 32r45
+X 5 a-interr.ads
+21U13*Interrupts 12|8r10 32r49
+X 6 a-intnam.ads
+26U24*Names 12|8r21 32r60
+53i4*External_Interrupt_2 12|32r66
+X 7 a-reatim.ads
+43U13*Real_Time 12|2r10 2r29
+57U13*Clock 12|141r23
+59U13*"+" 12|141r29
+85U13*To_Time_Span 12|141r31
+X 11 add.ads
+1U9*add 12|15b14
+2U16*Background 12|21b15
+X 12 add.adb
+29w15 Controlador_Eventos 61r11
+31U19 Interrupcion 32r31 82b18
+34Y15 Esperar_Evento 61r31 86b14
+36e13 Llamada_Pendiente 84r13 86r34 88r15
+45t10 Modo
+56E14 ModoFuncionamiento 57r16
+56N37 M1 57r38 63r22 72r33
+56N41 M2 65r33 67r21
+56N45 M3 69r33 71r20
+57e9 modo 62r18 65m25 69m25 72m25
+97U15 Prueba_Dispositivos 99b15
+109i14 I
+X 13 conductor.ads
+4U9*Conductor 12|12r6 12r21
+30w15*Sintomas 12|64r25 68r25 68r60
+34U19 GetAvisoCabeza 12|68r34
+35U19 GetAvisoDistancia 12|64r34 68r69
+X 14 devices.ads
+5U9*devices 12|6r6 6r19
+X 16 kernel.ads
+36U9*Kernel 12|1r6 1r32
+X 21 kernel-serial_output.ads
+36U16*Serial_Output 12|1r13 1r39
+X 24 pulse_interrupt.ads
+6U9*pulse_interrupt 12|9r6 9r27
+X 25 system.ads
+46U9*System 12|3r6 3r18 30r25
+117I12*Interrupt_Priority 12|30r32
+X 47 tools.ads
+6U9*tools 12|5r6 5r17
+13U15*Starting_Notice 12|107r10 149r4
+14U15*Finishing_Notice 12|144r10 151r4
+X 49 vehiculo.ads
+4U9*Vehiculo 12|13r6 13r20
+

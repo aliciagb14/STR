@@ -1,0 +1,131 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvvrnvvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
+
+U vehiculo%b		vehiculo.adb		69914602 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W conductor%s		conductor.adb		conductor.ali  ED
+W devices%s		devices.adb		devices.ali  ED
+W kernel%s		kernel.ads		kernel.ali
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali  ED
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W tools%s		tools.adb		tools.ali  ED
+
+U vehiculo%s		vehiculo.ads		462D50A6 PK
+W devices%s		devices.adb		devices.ali  ED
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+W tools%s		tools.adb		tools.ali  ED
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-reatim.ads		20000718095948 5DBAB303
+D a-retide.ads		20000718095948 7F3C479C
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D conductor.ads		20231106152559 46A44C6A
+D devices.ads		20231106141541 76B1519D
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-serial_output.ads  20010312182047 16AD38F4
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-taprob.ads		20000718095949 1D5668B3
+D s-tasres.ads		20000718095949 62B4C0AB
+D s-tarest.ads		20000718095949 1D177686
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20231106141541 7C34CB2C
+D unchconv.ads		20000718095949 72DC4539
+D vehiculo.ads		20231106152552 4CA8CA17
+D vehiculo.adb		20231106152522 08EA6BC7
+X 1 ada.ads
+18U9*Ada 42|2r6 2r25
+X 5 a-reatim.ads
+43U13*Real_Time 42|2r10 2r29
+45O9*Time 42|11r20 44r20 72r20
+50O9*Time_Span 42|12r16 45r16 73r16
+57U13*Clock 42|50r23
+59U13*"+" 42|39r39 50r29 67r42 109r38
+89U13*Milliseconds 42|12r29 45r29 73r29
+X 9 conductor.ads
+4U9*Conductor 42|6r6 6r21
+13w15*Medidas 42|30r45 53r28 54r29 79r26 80r23
+20U19 GetDistancia 42|54r37 79r34
+21U19 GetVelocidad 42|30r53 53r36 80r31
+30w15*Sintomas 42|15r14 18r17 22r14 27r14 27r42 30r17 32r17 58r17 60r19 62r17
+. 63r18 81r13 85r17 89r17 94r14 100r14
+32U17 PutAvisoDistancia 42|58r26 60r28 62r26 63r27
+34U19 GetAvisoCabeza 42|27r23 30r26 32r26 100r23
+35U19 GetAvisoDistancia 42|15r23 18r26 27r51 81r22 85r26 89r26
+36U19 GetAvisoVolante 42|22r23 94r23
+X 10 devices.ads
+5U9*devices 41|2r6 2r19 42|5r6 5r19
+68I10*Distance_Samples_Type 42|47r19 48r15 56r24 56r68 74r25
+76I10*Speed_Samples_Type 42|46r18 75r19
+107U15*Display_Distance 42|79r9
+111U15*Display_Speed 42|80r9
+128U15*Beep 42|17r13 23r13 28r13 31r13 33r13
+132N27*On 42|16r19 19r19
+133U15*Light 42|16r13 19r13
+141U19*Activate_Brake 42|29r13
+X 11 kernel.ads
+36U9*Kernel 42|1r6 1r32
+X 16 kernel-serial_output.ads
+36U16*Serial_Output 42|1r13 1r39
+41U14*Put 42|82r13 86r13 90r13 95r13 101r13
+43U14*New_Line 42|24r13 35r10 65r58 84r13 88r13 92r13 97r13 99r10 103r13
+. 105r10
+49U14*Put_Line 42|36r10 83r13 87r13 91r13 96r13 102r13 106r10
+X 19 system.ads
+46U9*System 42|3r6 3r18
+X 39 tools.ads
+6U9*tools 41|1r6 1r17 42|4r6 4r17
+13U15*Starting_Notice 42|52r13 78r9
+14U15*Finishing_Notice 42|65r13 107r10
+X 41 vehiculo.ads
+4U9*Vehiculo 42|8b14
+6t9*Display
+10t10*DistanciaSeguridad
+14t10*Riesgos
+X 42 vehiculo.adb
+11O5 Sig_Instante 38r22 39m10 39r26
+12O5 Intervalo 39r41
+44O5 Sig_Instante 50m7 66r25 67m13 67r29
+45O5 Intervalo 50r31 67r44
+46i5 Current_Vel 53m13 56r46 56r90
+47i5 Current_Dist 54m13 57r17 59r20 61r20
+48i5 distSeg 56m13 57r33 59r36 61r35
+72O5 Sig_Instante 108r21 109m9 109r25
+73O5 Intervalo 109r40
+74i5 Current_Distancia
+75i5 Current_Vel
+

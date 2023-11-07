@@ -1,0 +1,106 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvnrnnvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
+
+U protegidos%b		protegidos.adb		60C5989F PK IL
+W ada.exceptions%s	a-except.adb		a-except.ali
+W devices%s		devices.adb		devices.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W tools%s		tools.adb		tools.ali
+
+U protegidos%s		protegidos.ads		09726BDD PK IL
+W devices%s		devices.adb		devices.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W tools%s		tools.adb		tools.ali
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-reatim.ads		20000718095948 5DBAB303
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D devices.ads		20231106141541 76B1519D
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D protegidos.ads	20231106145027 03F7F16C
+D protegidos.adb	20231106150627 69B7F342
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-taprob.ads		20000718095949 1D5668B3
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20231106141541 7C34CB2C
+D unchconv.ads		20000718095949 72DC4539
+X 8 devices.ads
+5U9*devices 16|2r6 2r19 17|2r6 2r19
+58A10*HeadPosition_Samples_Type 16|10r36 15r39 20r20 17|41r38 42r23 48r38
+61U15*Reading_HeadPosition 17|44r10
+68I10*Distance_Samples_Type 16|8r37 13r39 19r21 17|17r38 18r24 24r39
+70U15*Reading_Distance 17|20r10
+76I10*Speed_Samples_Type 16|9r36 14r39 18r20 17|29r38 30r23 36r38
+78U15*Reading_Speed 17|32r10
+84I10*Steering_Samples_Type 16|7r39 12r41 17r28 17|5r40 6r31 12r42
+86U15*Reading_Steering 17|8r13
+X 16 protegidos.ads
+4U9*protegidos 17|3b14
+6w11*Medidas
+7U17 PutGiroVolante 17|12b19
+7i32 giro 17|12b34 14r36
+8U17 PutDistancia 17|24b19
+8i30 dist 17|24b32 26r29
+9U17 PutVelocidad 17|36b19
+9i30 vel 17|36b32 38r28
+10U17 PutPosCabeza 17|48b19
+10a30 cab 17|48b32 50r28
+12U19 GetGiroVolante 17|5b18
+13U19 GetDistancia 17|17b18
+14U19 GetVelocidad 17|29b18
+15U19 GetPosCabeza 17|41b18
+17i7 Current_GiroVolante 17|14r13
+18i7 Current_Vel 17|38r13
+19i7 Current_Dist 17|26r13
+20a7 Current_Cab 17|50r13
+23w15*Sintomas
+24U17 PutAvisoCabeza 17|63b19
+24e32 avisoCabeza 17|63b34 65r36
+25U17 PutAvisoDistancia 17|83b19
+25i35 avisoDistancia 17|83b37 85r39
+26U17 PutAvisoVolante 17|73b19
+26e33 avisoVolante 17|73b35 75r37
+27U19 GetAvisoCabeza 17|58b18
+28U19 GetAvisoDistancia 17|78b18
+29U19 GetAvisoVolante 17|68b18
+32e7 Current_AvisoCabeza 17|60r20 65r13
+33i7 Current_AvisoDistancia 17|80r17 85r13
+34e7 Current_AvisoVolante 17|70r17 75r13
+X 17 protegidos.adb
+6i9 Current_GiroVolante 8m31 9r20
+18i9 Current_Dist 20m27 21r17
+30i9 Current_vel 32m24 33r17
+42a9 Current_Cab 44m31 45r17
+X 36 tools.ads
+6U9*tools 16|1r7 1r18 17|1r6 1r17
+
