@@ -97,10 +97,8 @@ package body add is
          elsif (Sintomas.GetAvisoDistancia = 1) then
             Light(On);
          end if;
-         
          if (Sintomas.GetAvisoVolante) then
             Beep(1);
-            New_line;
          end if;
      
          if (Sintomas.GetAvisoCabeza and Sintomas.GetAvisoDistancia = 3) then
@@ -111,7 +109,7 @@ package body add is
          elsif (Sintomas.GetAvisoCabeza) then
             Beep(2);
          end if;
-         Finishing_Notice("Fin Riesgos"); New_line;
+         Finishing_Notice("Fin Riesgos");
          delay until Sig_Instante;
          Sig_Instante := Sig_Instante + Intervalo;
       end loop;
@@ -139,7 +137,7 @@ package body add is
                 Sintomas.PutAvisoDistancia(1);
             else Sintomas.PutAvisoDistancia(0);
             end if; 
-            Finishing_Notice("Fin distancia seguridad"); New_line;
+            Finishing_Notice("Fin distancia seguridad");
             delay until Sig_Instante;
             Sig_Instante := Sig_Instante + Intervalo;
          end loop;
@@ -165,7 +163,7 @@ package body add is
             Sintomas.PutAvisoCabeza(true);
          else Sintomas.PutAvisoCabeza(false);
          end if;
-         Finishing_Notice("Fin cabeza"); New_line;
+         Finishing_Notice("Fin cabeza");
          lecturaAnteriorCabeza:=Current_Cab;
 
          delay until Sig_Instante;
@@ -191,7 +189,7 @@ package body add is
          if (abs(Current_GiroVolante - lecturaAnterior) > Umbral_Volantazo and (VelocidadActual > 40)) then
             Sintomas.PutAvisoVolante(true);
          end if;
-         Finishing_Notice("Fin giro volante"); New_line;
+         Finishing_Notice("Fin giro volante");
          delay until Sig_Instante;
          Sig_Instante := Sig_Instante + Intervalo;
       end loop;
@@ -208,30 +206,24 @@ package body add is
         Display_Distance(Medidas.GetDistancia);
         Display_Speed(Medidas.GetVelocidad);
     	if (Sintomas.GetAvisoDistancia = 3) then
-            Put ("............# ");
             Put_line("(*)PELIGRO COLISION");
             New_line;
          elsif (Sintomas.GetAvisoDistancia = 2) then
-            Put ("............# ");
             Put_line("(*)DISTANCIA IMPRUDENTE");
             New_line;
          elsif (Sintomas.GetAvisoDistancia = 1) then
-            Put ("............# ");
             Put_line("(*)DISTANCIA INSEGURA");
             New_line;
          end if;
          if (Sintomas.GetAvisoVolante) then
-            Put ("............# ");
             Put_line("(*)VOLANTAZO");
             New_line;
          end if;
          New_line;
          if (Sintomas.GetAvisoCabeza) then
-            Put ("............# ");
             Put_line("(*)DISTRACCION O SOMNOLENCIA");
             New_line;
          end if;
-         New_line;
     	 Finishing_Notice("Fin display");
     	delay until Sig_Instante;
         Sig_Instante := Sig_Instante + Intervalo;
