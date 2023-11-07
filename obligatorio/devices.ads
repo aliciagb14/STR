@@ -136,10 +136,10 @@ package devices is
     ---------------------------------------------------------------------
     procedure Activate_Automatic_Driving;
     -- It activates the automatic driving system 
-	
-	---------------------------------------------------------------------
-	procedure Activate_Brake;
-	-- It activates the brake 
+    
+    ---------------------------------------------------------------------
+    procedure Activate_Brake;
+    -- It activates the brake 
 
 
     ---------------------------------------------------------------------
@@ -230,7 +230,7 @@ package devices is
                                              of HeadPosition_Samples_Type;
 
     HeadPosition_Simulation: tipo_Secuencia_HeadPosition :=
-                ((-40,-35),(+32,+03),(+02,+01),(+03,+00),(+01,-03),  -- 1 muestra cada 100ms.
+                ((+01,+03),(+01,+03),(+02,+01),(+03,+00),(+01,-03),  -- 1 muestra cada 100ms.
                  (+01,+03),(-01,+03),(-02,+01),(+03,+00),(+01,-03),  --1s.
  
                  (+01,+03),(+01,+03),(+02,+01),(+03,+00),(+01,-03),  
