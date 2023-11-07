@@ -1,0 +1,800 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 209504 bytes
+section: .data at 0x2033260, size 12724 bytes
+tsim> resuming at 0x02000000
+
+[ 0.004296400] >>> Inicio Riesgos
+[ 0.023644400] --- Fin Riesgos
+[ 0.039486000] >>> Inicio Riesgos
+[ 0.058864500] --- Fin Riesgos
+[ 0.074705400] >>> Inicio distancia seguridad
+[ 0.106162700] ---
+[ 0.115860000] >>> Inicio Riesgos
+[ 0.135238500] --- Fin Riesgos Fin distancia seguridad
+[ 0.163367800] >>> Inicio giro volante
+[ 0.187173800] --- Fin giro volante
+[ 0.205574900] >>> Inicio giro volante
+[ 0.229382500] --- Fin giro volante
+[ 0.247783800] >>> Inicio cabeza
+[ 0.265753800] >>> Inicio Riesgos
+[ 0.285102200] --- Fin Riesgos
+[ 0.302760000] --- Fin ca
+[ 0.316041100] >>> Inicio giro volante
+[ 0.339848100] --- Fin giro volantebeza
+[ 0.360297500] >>> Inicio di
+[ 0.375145100] >>> Inicio distancia seguridad
+[ 0.406601200] --
+[ 0.415786200] >>> Inicio Riesgos
+[ 0.435166200] --- Fin Riesgos- Fin distancia seguridadsplay
+[ 0.471789900] ............# Distance:  80
+[ 0.498713800] ............# Speed:  70
+
+[ 0.521150500] --- Fin display
+[ 0.537022400] >>> Inicio display
+[ 0.5598493
+[ 0.565962800] >>> Inicio Riesgos
+[ 0.585342400] --- Fin Riesgos00] ............# Distance:  90
+[ 0.621994900] ............# Speed:  70
+
+[ 0.64
+[ 0.648016800] >>> Inicio cabeza
+[ 0.665987300] >>
+[ 0.675172300] >>> Inicio distancia seguridad
+[ 0.706629100] --
+[ 0.715813900] >>> Inicio Riesgos
+[ 0.735194100] --- Fin Riesgos- Fin distancia seguridad> Inicio giro volante
+[ 0.778427300] --- Fin giro volante
+[ 0.798644800] --- Fin cabeza4432100] --- Fin display
+[ 0.826261400] >>> Programa Principal
+[ 0.845717800] --- Programa Principal
+[ 0.865278700] >>> Inicio Riesgos
+[ 0.884629700] --- Fin Riesgos
+[ 0.965403700] >>>
+[ 0.975101100] >>> Inicio distancia seguridad
+[ 1.006562900] --
+[ 1.015748300] >>> Inicio Riesgos
+[ 1.035129000] --- Fin Riesgos- Fin distancia seguridad
+[ 1.063770400] >>> Inicio giro volante
+[ 1.087582000] --- Fin giro volante
+[ 1.105982600] >>> Inicio cabeza
+[ 1.126298000] --- Fin cabeza Inicio display
+[ 1.154727300] ......
+[ 1.165960800] >>> Inicio Riesgos
+[ 1.185341000] --- Fin Riesgos......# Distance:  80
+[ 1.216875300] ............# Speed:  80
+
+[ 1.239312500] --- Fin display
+[ 1.274472500] >>> Inicio distancia seguridad
+[ 1.305904900] ---
+[ 1.315602500] >>> Inicio Riesgos
+[ 1.334983300] --- Fin Riesgos Fin distancia seguridad
+[ 1.365333400] >>> Inicio giro volante
+[ 1.389114400] --- Fin giro volante
+[ 1.447488000] >>> Inicio cabeza
+[ 1.465397300] >>> Inicio Riesgos
+[ 1.484747800] --- Fin Riesgos
+[ 1.502406900] --- Fin cabeza
+[ 1.574472500] >>> Inicio distancia seguridad
+[ 1.605905500] ---
+[ 1.615602600] >>> Inicio Riesgos
+[ 1.634983600] --- Fin Riesgos Fin distancia seguridad
+[ 1.715333600] >>> Inicio giro volante
+[ 1.739114500] --- Fin giro volante
+[ 1.765333400] >>> Inicio Riesgos
+[ 1.784684400] --- Fin Riesgos
+[ 1.847488200] >>> Inicio cabeza
+[ 1.867770400
+[ 1.874907400] >>> Inicio distancia seguridad
+[ 1.906371700] --
+[ 1.915557300] >>> Inicio Riesgos
+[ 1.934938900] --- Fin Riesgos- Fin distancia seguridad] --- Fin cabeza
+[ 1.971772200] >>> Inicio display
+[ 1.994600700] ............# Distance:  65
+[ 2.021526500] ............# Speed:  90
+
+[ 2.043963800] --- Fin display
+[ 2.065343600] >>> Inicio Riesgos
+[ 2.084694800] --- Fin Riesgos
+[ 2.100536300] >>> Inicio giro volante
+[ 2.124347900] --- Fin giro volante
+[ 2.174472700] >>> Inicio distancia seguridad
+[ 2.205905600] ---
+[ 2.215602600] >>> Inicio Riesgos
+[ 2.233010700] ............Light: ^ON^
+[ 2.256305100] --- Fin Riesgos Fin distancia seguridad
+[ 2.284434500] >>> Inicio cabeza
+[ 2.304748900] --- Fin cabeza
+[ 2.365346200] >>> Inicio Riesgos
+[ 2.382722800] ............Light: ^ON^
+[ 2.406012900] --- Fin Riesgos
+[ 2.421854000] >>> Inicio giro volante
+[ 2.445664600] --- Fin giro volante
+[ 2.474472500] >>> Inicio distancia seguridad
+[ 2.505903600] ---
+[ 2.515600400] >>> Inicio Riesgos
+[ 2.533008900] ............Light: ^ON^
+[ 2.556297900] --- Fin Riesgos Fin distancia seguridad
+[ 2.647488200] >>> Inicio cabeza
+[ 2.665397200] >>> Inicio Riesgos
+[ 2.682774200] ............Light: ^ON^
+[ 2.706064600] --- Fin Riesgos
+[ 2.723725800] --- Fin cabeza
+[ 2.765333600] >>>
+[ 2.775030600] >>> Inicio distancia seguridad
+[ 2.806493900] --
+[ 2.815679300] >>> Inicio Riesgos
+[ 2.833087500] ............Light: ^ON^
+[ 2.856376800] --- Fin Riesgos- Fin distancia seguridad Inicio giro volante
+[ 2.899175400] --- Fin giro volante
+[ 2.965414000] >>> Inicio Riesgos
+[ 2.982790600] ............Light: ^ON^
+[ 3.003409000] ............%BEEP 1
+[ 3.024554100] --- Fin Riesgos
+[ 3.040395700]
+[ 3.048075000] >>> Inicio cabeza
+[ 3.06839020
+[ 3.075015200] >>> Inicio distancia seguridad
+[ 3.106477900] --
+[ 3.115662500] >>> Inicio Riesgos
+[ 3.133070600] ............%BEEP 1
+[ 3.154247200] --- Fin Riesgos- Fin distancia seguridad
+[ 3.182888200] >>> Inicio giro volante
+[ 3.206700300] --- Fin giro volante0] --- Fin cabeza >>> Inicio display
+[ 3.248954300] ............# Dis
+[ 3.265818900] >>> Inicio Riesgos
+[ 3.283227700] ............%BEEP 1
+[ 3.304404800] --- Fin Riesgostance:  30
+[ 3.330306200] ............# Speed:  105(*)PELIGRO COLISION
+
+(*)VOLANTAZO
+
+
+
+[ 3.370
+[ 3.375054600] >>> Inicio distancia seguridad
+[ 3.406516700] --
+[ 3.415701300] >>> Inicio Riesgos
+[ 3.433109800] ............%BEEP 1
+[ 3.454286600] --- Fin Riesgos- Fin distancia seguridad
+[ 3.482927900] >>> Inicio giro volante
+[ 3.506737700] --- Fin giro volante
+[ 3.525138700] >>> Inicio cabeza
+[ 3.545451700] --- Fin cabeza958700] --
+[ 3.565901200] >>> Inicio Riesgos
+[ 3.583309300] ............%BEEP 1
+[ 3.604486200] --- Fin Riesgos- Fin display
+[ 3.674472500] >>> Inicio distancia seguridad
+[ 3.705903900] ---
+[ 3.715601500] >>> Inicio Riesgos
+[ 3.733008900] ............%BEEP 1
+[ 3.754186300] --- Fin Riesgos Fin distancia seguridad
+[ 3.815333600] >>> Inicio giro volante
+[ 3.839112800] --- Fin giro volante
+[ 3.857514400] 
+[ 3.865706100] >>> Inicio Riesgos
+[ 3.883113800] ............%BEEP 1
+[ 3.904291300] --- Fin Riesgos>>> Inicio cabeza
+[ 3.932255200] --- Fin cabeza
+[ 3.965403000] >>>
+[ 3.975100600] >>> Inicio distancia seguridad
+[ 4.006560200] --
+[ 4.015745000] >>> Inicio Riesgos
+[ 4.033153800] ............%BEEP 1
+[ 4.051806500] ............%BEEEEEEEEEEP 5
+[ 4.074361400] !!!! Brake activated !!!!
+[ 4.095887900] --- Fin Riesgos- Fin distancia seguridad Inicio display
+[ 4.137629400] ............# Distance:  30
+[
+[ 4.165547900] >>> Inicio Riesgos
+[ 4.182956000] ............%BEEP 1
+[ 4.201609000] ............%BEEEEEEEEEEP 5
+[ 4.224163500] !!!! Brake activated !!!!
+[ 4.245690000] --- Fin Riesgos
+[ 4.261531400] >>> Inicio
+[ 4.274843400] >>> Inicio distancia seguridad
+[ 4.306306600] ---
+[ 4.316004200] >>> Inicio Riesgos
+[ 4.333412200] ............Light: ^ON^
+[ 4.353956000] ............%BEEEEEEEEP 4
+[ 4.375575500] ............%BEEP 1
+[ 4.396658500] ............%BEEEEEEP 3
+[ 4.417170200] --- Fin Riesgos Fin distancia seguridad giro volante
+[ 4.455876200] ---
+[ 4.465573600] >>> Inicio Riesgos
+[ 4.482981300] ............Light: ^ON^
+[ 4.503524700] ............%BEEEEEEEEP 4
+[ 4.525144900] ............%BEEP 1
+[ 4.546227000] ............%BEEEEEEP 3
+[ 4.566737900] --- Fin Riesgos
+[ 4.582579500] >>> Inicio distancia seguridad
+[ 4
+[ 4.616059200] >>> Inicio Riesgos
+[ 4.633467700] ............Light: ^ON^
+[ 4.654085400] ............%BEEP 1
+[ 4.675166800] ............%BEEEEEEP 3
+[ 4.695678100] --- Fin Riesgos.614042600] --- Fin distancia seguridad Fin giro volante
+[ 4.740190900] >>> Inicio giro volante
+[ 4
+[ 4.766019200] >>> Inicio Riesgos
+[ 4.783427700] ............Light: ^ON^
+[ 4.804045400] ............%BEEP 1
+[ 4.825127700] ............%BEEEEEEP 3
+[ 4.845639400] --- Fin Riesgos.764002200] --- Fin giro v
+[ 4.874793000] >>> Inicio distancia seguridad
+[ 4.906256600] ---
+[ 4.915953800] >>> Inicio Riesgos
+[ 4.933361300] ............Light: ^ON^
+[ 4.953979800] ............%BEEP 1
+[ 4.975062300] ............%BEEEEEEP 3
+[ 4.995574000] --- Fin Riesgos Fin distancia seguridadolante
+[ 5.026774600] >>> Inicio giro volante
+[ 5.050658900] --- Fin giro v
+[ 5.065987500] >>> Inicio Riesgos
+[ 5.083395700] ............Light: ^ON^
+[ 5.104014200] ............%BEEP 1
+[ 5.125097000] ............%BEEEEEEP 3
+[ 5.145608000] --- Fin Riesgosolante
+[ 5.164521600] >>> 
+[ 5.174761300] >>> Inicio distancia seguridad
+[ 5.206224800] ---
+[ 5.215922300] >>> Inicio Riesgos
+[ 5.233329400] ............Light: ^ON^
+[ 5.253947500] ............%BEEP 1
+[ 5.275030200] ............%BEEEEEEP 3
+[ 5.295541900] --- Fin Riesgos Fin distancia seguridad
+[ 5.323671500] >>> Inicio giro volante
+[ 5.347481400] --- Fin giro volante
+[ 5.365882500] >>> Inicio Riesgos
+[ 5.383290300] ............Light: ^ON^
+[ 5.403908400] ............%BEEP 1
+[ 5.424990900] ............%BEEEEEEP 3
+[ 5.445502600] --- Fin RiesgosInicio cabeza
+[ 5.47
+[ 5.474974500] >>> Inicio distancia seguridad
+[ 5.506437300] --
+[ 5.515622100] >>> Inicio Riesgos
+[ 5.533030300] ............Light: ^ON^
+[ 5.553647700] ............%BEEP 1
+[ 5.574730900] ............%BEEEEEEP 3
+[ 5.595242300] --- Fin Riesgos- Fin distancia seguridad
+[ 5.623883500] >>> Inicio giro volante
+[ 5.647693400] --- Fin giro volant
+[ 5.665582500] >>> Inicio Riesgos
+[ 5.682990300] ............Light: ^ON^
+[ 5.703608000] ............%BEEP 1
+[ 5.724690800] ............%BEEEEEEP 3
+[ 5.745202100] --- Fin Riesgose1421500] --- Fin cabeza
+[ 
+[ 5.774866700] >>> Inicio distancia seguridad
+[ 5.806330700] ---
+[ 5.816028100] >>> Inicio Riesgos
+[ 5.833435400] ............Light: ^ON^
+[ 5.853979600] ............%BEEEEEEEEP 4
+[ 5.875599500] ............%BEEP 1
+[ 5.896682600] ............%BEEEEEEP 3
+[ 5.917198300] --- Fin Riesgos Fin distancia seguridad
+[ 5.945327200] >>> Inicio giro volante
+[ 5.967168900] >>> Inicio Riesgos
+[ 5.984546200] ............Light: ^ON^
+[ 6.005089600] ............%BEEEEEEEEP 4
+[ 6.026709000] ............%BEEP 1
+[ 6.047790400] ............%BEEEEEEP 3
+[ 6.068301700] --- Fin Riesgos
+[ 6.084142700] >>> Inicio distancia seguridad
+[ 6.115708100] >>> Inicio Riesgos
+[ 6.133085400] ............Light: ^ON^
+[ 6.153629200] ............%BEEEEEEEEP 4
+[ 6.175249400] ............%BEEP 1
+[ 6.196332500] ............%BEEEEEEP 3
+[ 6.216843500] --- Fin Riesgos
+[ 6.232684100] --- Fin distancia seguridad
+[ 6.256283900] ---
+[ 6.265980700] >>> Inicio Riesgos
+[ 6.283389200] ............Light: ^ON^
+[ 6.304006500] ............%BEEP 1
+[ 6.325088000] ............%BEEEEEEP 3
+[ 6.345598900] --- Fin Riesgos Fin giro volante
+[ 6.3701
+[ 6.374751500] >>> Inicio distancia seguridad
+[ 6.406215200] ---
+[ 6.415912100] >>> Inicio Riesgos
+[ 6.433320200] ............Light: ^ON^
+[ 6.453864700] ............%BEEEEEEEEP 4
+[ 6.475484800] ............%BEEP 1
+[ 6.496568600] ............%BEEEEEEP 3
+[ 6.517079800] --- Fin Riesgos Fin distancia seguridad44400] >>> Inicio giro volante
+[
+[ 6.565407500] >>> Inicio Riesgos
+[ 6.582815500] ............Light: ^ON^
+[ 6.603359600] ............%BEEEEEEEEP 4
+[ 6.624979000] ............%BEEP 1
+[ 6.646063000] ............%BEEEEEEP 3
+[ 6.666574900] --- Fin Riesgos
+[ 6.682416000] >>> Inicio distancia seguridad
+[ 6
+[ 6.715900700] >>> Inicio Riesgos
+[ 6.733309100] ............Light: ^ON^
+[ 6.753852900] ............%BEEEEEEEEP 4
+[ 6.775472700] ............%BEEP 1
+[ 6.796557100] ............%BEEEEEEP 3
+[ 6.817068800] --- Fin Riesgos.713883500] --- Fin distancia seguridad 6.564414900] --- Fin gir
+[ 6.865678200] >>> Inicio Riesgos
+[ 6.883085400] ............Light: ^ON^
+[ 6.903629800] ............%BEEEEEEEEP 4
+[ 6.925249900] ............%BEEP 1
+[ 6.946333300] ............%BEEEEEEP 3
+[ 6.966849200] --- Fin Riesgos
+[ 6.982690100] >>> Inicio distancia seguridad
+[ 
+[ 7.015660100] >>> Inicio Riesgos
+[ 7.033068100] ............Light: ^ON^
+[ 7.053612200] ............%BEEEEEEEEP 4
+[ 7.075231600] ............%BEEP 1
+[ 7.096316300] ............%BEEEEEEP 3
+[ 7.116827600] --- Fin Riesgos7.014155300] --- Fin distancia seguridado volante
+[ 7.157757100] 
+[ 7.165948800] >>> Inicio Riesgos
+[ 7.183356800] ............Light: ^ON^
+[ 7.203900200] ............%BEEEEEEEEP 4
+[ 7.225520300] ............%BEEP 1
+[ 7.246604500] ............%BEEEEEEP 3
+[ 7.267115700] --- Fin Riesgos
+[ 7.282957100] >>> Inicio distancia seguridad
+[
+[ 7.315416600] >>> Inicio Riesgos
+[ 7.332825000] ............Light: ^ON^
+[ 7.353369100] ............%BEEEEEEEEP 4
+[ 7.374988600] ............%BEEP 1
+[ 7.396072600] ............%BEEEEEEP 3
+[ 7.416583500] --- Fin Riesgos 7.314423600] --- Fin distancia seguridad>>> Inicio giro volante
+[ 7.466938900] >>> Inicio Riesgos
+[ 7.484316100] ............Light: ^ON^
+[ 7.504860200] ............%BEEEEEEEEP 4
+[ 7.526479900] ............%BEEP 1
+[ 7.547563500] ............%BEEEEEEP 3
+[ 7.568075200] --- Fin Riesgos
+[ 7.583916700] >>> Inicio distancia seguridad
+[ 7.615505000] >>> Inicio Riesgos
+[ 7.632882600] ............Light: ^ON^
+[ 7.653425900] ............%BEEEEEEEEP 4
+[ 7.675045700] ............%BEEP 1
+[ 7.696130400] ............%BEEEEEEP 3
+[ 7.716641300] --- Fin Riesgos
+[ 7.732482300] --- Fin distancia seguridad
+[ 7.756083900] ---
+[ 7.765781300] >>> Inicio Riesgos
+[ 7.783189000] ............Light: ^ON^
+[ 7.803732400] ............%BEEEEEEEEP 4
+[ 7.825351800] ............%BEEP 1
+[ 7.846435700] ............%BEEEEEEP 3
+[ 7.866946600] --- Fin Riesgos
+[ 7.882787500] >>> Inicio distancia seguridad
+[
+[ 7.915281500] >>> Inicio Riesgos
+[ 7.932658400] ............%BEEP 1
+[ 7.951312100] ............%BEEEEEEEEEEP 5
+[ 7.973867200] !!!! Brake activated !!!!
+[ 7.995393700] --- Fin Riesgos 7.914253600] --- Fin distancia seguridad Fin giro volante
+[ 8.040930600] >>> Inicio giro volante
+[
+[ 8.065737700] >>> Inicio Riesgos
+[ 8.083146100] ............%BEEP 1
+[ 8.101799400] ............%BEEEEEEEEEEP 5
+[ 8.124354300] !!!! Brake activated !!!!
+[ 8.145880400] --- Fin Riesgos 8.064745000] --- Fin giro
+[ 8.175033600] >>> Inicio distancia seguridad
+[ 8.206499000] --
+[ 8.215684500] >>> Inicio Riesgos
+[ 8.233092100] ............%BEEP 1
+[ 8.251745800] ............%BEEEEEEEEEEP 5
+[ 8.274300300] !!!! Brake activated !!!!
+[ 8.295827100] --- Fin Riesgos- Fin distancia seguridad volante
+[ 8.328564200] >>> Inicio giro volante
+[ 8.352378800] --- Fin gi
+[ 8.365659500] >>> Inicio Riesgos
+[ 8.383067900] ............%BEEP 1
+[ 8.401721600] ............%BEEEEEEEEEEP 5
+[ 8.424276800] !!!! Brake activated !!!!
+[ 8.445802800] --- Fin Riesgosro volante
+[ 8.466764200] 
+[ 8.474956400] >>> Inicio distancia seguridad
+[ 8.506420700] --
+[ 8.515606200] >>> Inicio Riesgos
+[ 8.533013800] ............%BEEP 1
+[ 8.551666800] ............%BEEEEEEEEEEP 5
+[ 8.574222000] !!!! Brake activated !!!!
+[ 8.595748400] --- Fin Riesgos- Fin distancia seguridad>>> Inicio giro volante
+[ 8.640011900] --- Fin giro volante
+[ 8.658412900
+[ 8.665580500] >>> Inicio Riesgos
+[ 8.682988900] ............%BEEP 1
+[ 8.701642600] ............%BEEEEEEEEEEP 5
+[ 8.724197100] !!!! Brake activated !!!!
+[ 8.745723300] --- Fin Riesgos] >>> Inicio giro volante
+[ 8.776110300] >>> Inicio distancia seguridad
+[ 8.807545300] 
+[ 8.815706400] >>> Inicio Riesgos
+[ 8.833114800] ............%BEEP 1
+[ 8.851767100] ............%BEEEEEEEEEEP 5
+[ 8.874321700] !!!! Brake activated !!!!
+[ 8.895848600] --- Fin Riesgos--- Fin distancia seguridad
+[ 8.927099400] --- Fin giro volante
+[ 8.945500800] >>> Inicio giro volante
+[ 8.967333400] >>> Inicio Riesgos
+[ 8.984710700] ............%BEEP 1
+[ 9.003364100] ............%BEEEEEEEEEEP 5
+[ 9.025919400] !!!! Brake activated !!!!
+[ 9.047445600] --- Fin Riesgos
+[ 9.064871000] --- 
+[ 9.075079900] >>> Inicio distancia seguridad
+[ 9.106546700] --
+[ 9.115731600] >>> Inicio Riesgos
+[ 9.133139400] ............%BEEP 1
+[ 9.151792900] ............%BEEEEEEEEEEP 5
+[ 9.174348300] !!!! Brake activated !!!!
+[ 9.195874500] --- Fin Riesgos- Fin distancia seguridadFin giro volante
+[ 9.232707500] >>> Inicio giro volante
+[ 9.256523300] --
+[ 9.265708900] >>> Inicio Riesgos
+[ 9.283116600] ............%BEEP 1
+[ 9.301770000] ............%BEEEEEEEEEEP 5
+[ 9.324324600] !!!! Brake activated !!!!
+[ 9.345851100] --- Fin Riesgos- Fin giro volante
+[ 9.370
+[ 9.375004000] >>> Inicio distancia seguridad
+[ 9.406470500] --
+[ 9.415655600] >>> Inicio Riesgos
+[ 9.433063700] ............Light: ^ON^
+[ 9.453607900] ............%BEEEEEEEEP 4
+[ 9.475227400] ............%BEEP 1
+[ 9.496311700] ............%BEEEEEEP 3
+[ 9.516823100] --- Fin Riesgos- Fin distancia seguridad907700] >>> Inicio giro volante
+[ 9.565459000] >>> Inicio Riesgos
+[ 9.582836300] ............Light: ^ON^
+[ 9.603380100] ............%BEEEEEEEEP 4
+[ 9.625000300] ............%BEEP 1
+[ 9.646084000] ............%BEEEEEEP 3
+[ 9.666595600] --- Fin Riesgos
+[ 9.682436800] >>> Inicio distancia seguridad
+[ 9
+[ 9.715922600] >>> Inicio Riesgos
+[ 9.733329700] ............Light: ^ON^
+[ 9.753947500] ............%BEEP 1
+[ 9.775032400] ............%BEEEEEEP 3
+[ 9.795543400] --- Fin Riesgos.713905000] --- Fin distancia seguridad
+[ 9.831352400] --- Fin giro volante
+[ 9.849784100] >>> Inicio giro
+[ 9.865656100] >>> Inicio Riesgos
+[ 9.883065000] ............Light: ^ON^
+[ 9.903682300] ............%BEEP 1
+[ 9.924767200] ............%BEEEEEEP 3
+[ 9.945278900] --- Fin Riesgos volante
+[ 9.969237
+[ 9.974838600] >>> Inicio distancia seguridad
+[ 10.006304700] --
+[ 10.016002000] >>> Inicio Riesgos
+[ 10.033921500] ............Light: ^ON^
+[ 10.055051400] ............%BEEP 1
+[ 10.076722200] ............%BEEEEP 2
+[ 10.096721800] --- Fin Riesgos- Fin distancia seguridad300] --- Fin giro volante
+[ 10.138674800] >>> Inicio giro volante
+[ 10.
+[ 10.166042000] >>> Inicio Riesgos
+[ 10.183961500] ............Light: ^ON^
+[ 10.205091400] ............%BEEP 1
+[ 10.226761700] ............%BEEEEP 2
+[ 10.246760600] --- Fin Riesgos163000700] --- Fin giro
+[ 10.274889900] >>> Inicio distancia seguridad
+[ 10.306865800] 
+[ 10.315539100] >>> Inicio Riesgos
+[ 10.333458700] ............%BEEP 1
+[ 10.355159800] ............%BEEEEP 2
+[ 10.375158800] --- Fin Riesgo--- Fin distancia seguridad volante
+[ 10.408920100] >>> Inicio giro volante
+[ 10.433247100] --- Fin giro volante5.773330800] >>> Inicio cab
+[ 10.465984300] >>> Inicio Riesgos
+[ 10.483904508] ............%BEEP 1
+[ 10.505604600] ............%BEEEEP 2
+[ 10.525604200] --- Fin Riesgos
+[ 10.541956800] >>> Inicio giro volante
+[ 10.566284100] 
+[ 10.574957000] >>> Inicio distancia seguridad
+[ 10.606932600] 
+[ 10.615606200] >>> Inicio Riesgos
+[ 10.633526000] ............%BEEP 1
+[ 10.655226200] ............%BEEEEP 2
+[ 10.675225800] --- Fin Riesgos--- Fin distancia seguridad--- Fin giro volanteeza
+[ 10.720605900] --- Fin cabeza
+[ 10.736446600] >>> Inicio cabeza
+[ 10.757276300] 
+[ 10.765949800] >>> Inicio Riesgos
+[ 10.783869600] ............%BEEP 1
+[ 10.805560100] --- Fin Riesgos
+[ 10.821913400] >>> Inicio giro volante
+[ 10.846239500] --- Fin giro volante--- Fin cabeza
+[ 10
+[ 10.874881100] >>> Inicio distancia seguridad
+[ 10.906859900] -
+[ 10.916044700] >>> Inicio Riesgos
+[ 10.933965200] ............%BEEP 1
+[ 10.955654800] --- Fin Riesgos-- Fin distancia seguridad.872321000] >>> Inicio cabeza
+[ 11.003588900] --- Fin cabeza
+[ 11.019430300] >>> Inicio cabeza
+[ 11.040257900] --- Fin cabeza
+[ 11.056099300] >>
+[ 11.065827500] >>> Inicio Riesgos
+[ 11.083747300] ............%BEEP 1
+[ 11.105437800] --- Fin Riesgos> Inicio cabeza
+[ 11.132890900] --- Fin cabeza
+[ 11.148731600] >>> Inicio cabez
+[ 11.165628000] >
+[ 11.174843900] >>> Inicio distancia seguridad
+[ 11.206823700] -
+[ 11.216008900] >>> Inicio Riesgos
+[ 11.233928300] ............%BEEP 1
+[ 11.255619700] --- Fin Riesgos-- Fin distancia seguridad>> Inicio giro volante
+[ 11.300395900] --- Fin giro volantea
+[ 11.323250400] --- Fin cabeza
+[ 11.339091800] >>> Inicio cabeza
+[ 11.359919
+[ 11.366033500] >>> Inicio Riesgos
+[ 11.383952600] ............%BEEP 1
+[ 11.405643900] --- Fin Riesgos900] --- Fin cabeza
+[ 11.431725300] >>> Inicio cabeza
+[ 11.452553700] --- Fin cabeza
+[ 11.4683948
+[ 11.475050400] >>> Inicio distancia seguridad
+[ 11.507028100] 
+[ 11.515701000] >>> Inicio Riesgos
+[ 11.533621600] ............%BEEP 1
+[ 11.555311000] --- Fin Riesgos--- Fin distancia seguridad
+[ 11.585487600] >>> Inicio giro volante
+[ 11.609816200] --- Fin giro volante00] >>> Inicio cabeza
+[ 11.642901600] --- Fin cabeza
+[ 11.65874260
+[ 11.665910200] >>> Inicio Riesgos
+[ 11.683831100] ............%BEEP 1
+[ 11.705521600] --- Fin Riesgos0] >>> Inicio cabeza
+[ 11.735537300] --- Fin cabeza
+[ 11.751378300] >>> Inicio cabeza
+[ 11
+[ 11.774736700] >>> Inicio distancia seguridad
+[ 11.806716500] -
+[ 11.815901600] >>> Inicio Riesgos
+[ 11.833821800] ............%BEEP 1
+[ 11.855512200] --- Fin Riesgos-- Fin distancia seguridad
+[ 11.885177200] >>> Inicio giro volante
+[ 11.909504800] --- Fin giro volante.772208100] --- Fin cabeza
+[ 11.941730100] >>> Inicio cabeza
+[ 11.
+[ 11.965599600] >>> Inicio Riesgos
+[ 11.983519100] ............%BEEP 1
+[ 12.005209400] --- Fin Riesgos962558300] --- Fin cabeza
+[ 12.034363000] >>> Inicio cabeza
+[ 12.055190900] --- Fin cabeza
+[ 12.07
+[ 12.075128200] >>> Inicio distancia seguridad
+[ 12.107107400] 
+[ 12.115780400] >>> Inicio Riesgos
+[ 12.133700300] ............Light: ^ON^
+[ 12.154830500] ............%BEEP 1
+[ 12.176489800] --- Fin Riesgos--- Fin distancia seguridad1031800] >>> Inici
+[ 12.215882400] >>> Inicio giro volante
+[ 12.240210100] --- Fin giro volanteo cabeza
+[ 12.266771300] >>> Inicio Riesgos
+[ 12.284660400] ............Light: ^ON^
+[ 12.305789700] ............%BEEP 1
+[ 12.327448500] --- Fin Riesgos
+[ 12.343802100] --- Fin cabeza
+[ 12.359674100] >>> Inicio ca
+[ 12.375033500] >>> Inicio distancia seguridad
+[ 12.407012200] 
+[ 12.415685300] >>> Inicio Riesgos
+[ 12.433605200] ............Light: ^ON^
+[ 12.454734600] ............%BEEP 1
+[ 12.476393800] --- Fin Riesgos--- Fin distancia seguridadbeza
+[ 12.512043400] --- Fin cabeza
+[ 12.527884600] >>> Inicio cabeza
+[ 12.548712900] --- Fin cabeza
+[
+[ 12.565577600] >>> Inicio Riesgos
+[ 12.583497900] ............Light: ^ON^
+[ 12.604628100] ............%BEEP 1
+[ 12.626288300] --- Fin Riesgos
+[ 12.642641900] >>> Inicio giro volante
+[ 12.666966800]
+[ 12.675128100] >>> Inicio distancia seguridad
+[ 12.707107700] 
+[ 12.715781100] >>> Inicio Riesgos
+[ 12.733700700] ............Light: ^ON^
+[ 12.754830900] ............%BEEP 1
+[ 12.776491000] --- Fin Riesgos--- Fin distancia seguridad --- Fin giro volante 12.564554500] >>> Inicio cabeza
+[ 12.837224500] --- Fin cabeza
+[ 12.853065500] >>> Inic
+[ 12.865865800] >>> Inicio Riesgos
+[ 12.883786000] ............Light: ^ON^
+[ 12.904915000] ............%BEEP 1
+[ 12.926575000] --- Fin Riesgos
+[ 12.942928400] >>> Inicio giro volante
+[ 12.967435500
+[ 12.975085100] >>> Inicio distancia seguridad
+[ 13.007062200] 
+[ 13.015734900] >>> Inicio Riesgos
+[ 13.033655200] ............Light: ^ON^
+[ 13.054711200] ............%BEEEEEEEEP 4
+[ 13.076843600] ............%BEEP 1
+[ 13.098503300] --- Fin Riesgos--- Fin distancia seguridad] --- Fin giro volanteio cabeza
+[ 13.147977600] --- Fin cabeza
+[ 1
+[ 13.165867200] >>> Inicio Riesgos
+[ 13.183786700] ............Light: ^ON^
+[ 13.204842700] ............%BEEEEEEEEP 4
+[ 13.226975000] ............%BEEP 1
+[ 13.248635000] --- Fin Riesgos3.
+[ 13.266012400] 
+[ 13.274716100] >>> Inicio distancia seguridad
+[ 13.306693800] -
+[ 13.315879100] >>> Inicio Riesgos
+[ 13.333798700] ............%BEEP 1
+[ 13.355488800] --- Fin Riesgos-- Fin distancia seguridad>>> Inicio giro volante
+[ 13.400776500] --- Fin giro volante163818400] >>> Inicio cabeza
+[ 13.437447200] --- Fin cabeza
+[ 13.453288300] >>> Ini
+[ 13.465575800] >>> Inicio Riesgos
+[ 13.483496800] ............%BEEP 1
+[ 13.505186200] --- Fin Riesgoscio cabeza
+[ 13.530084600] --- Fin cabeza
+[ 13.545925300] >>> Inicio cabeza
+[ 13.566754808]
+[ 13.574916000] >>> Inicio distancia seguridad
+[ 13.606893900] 
+[ 13.615567000] >>> Inicio Riesgos
+[ 13.633486900] ............%BEEP 1
+[ 13.652652100] ............%BEEEEEEEEEEP 5
+[ 13.675719200] !!!! Brake activated !!!!
+[ 13.697757600] --- Fin Riesgos--- Fin distancia seguridad
+[ 13.727935200] >>> Inicio giro volante
+[ 13.752262300] --- Fin gi
+[ 13.766055400] >>> Inicio Riesgos
+[ 13.783974900] ............%BEEP 1
+[ 13.803140900] ............%BEEEEEEEEEEP 5
+[ 13.826208000] !!!! Brake activated !!!!
+[ 13.848246600] --- Fin Riesgosro volante --- Fin c
+[ 13.874839300] >>> Inicio distancia seguridad
+[ 13.906816900] -
+[ 13.916001800] >>> Inicio Riesgos
+[ 13.933922400] ............%BEEP 1
+[ 13.953086900] ............%BEEEEEEEEEEP 5
+[ 13.976154108] !!!! Brake activated !!!!
+[ 13.998192500] --- Fin Riesgos-- Fin distancia seguridad
+[ 14.027857300] >>> Inicio giro volante
+[ 14.052183700] --- Fin gi
+[ 14.065976300] >>> Inicio Riesgos
+[ 14.083896900] ............%BEEP 1
+[ 14.103061700] ............%BEEEEEEEEEEP 5
+[ 14.126128800] !!!! Brake activated !!!!
+[ 14.148166700] --- Fin Riesgosro volanteabeza
+[ 14
+[ 14.174760000] >>> Inicio distancia seguridad
+[ 14.206739200] -
+[ 14.215924700] >>> Inicio Riesgos
+[ 14.233844200] ............Light: ^ON^
+[ 14.254900100] ............%BEEEEEEEEP 4
+[ 14.277031700] ............%BEEP 1
+[ 14.298628700] ............%BEEEEEEP 3
+[ 14.319651800] --- Fin Riesgos-- Fin distancia seguridad
+[ 14.349316600] >>> Inicio giro
+[ 14.365701200] >>> Inicio Riesgos
+[ 14.383620700] ............Light: ^ON^
+[ 14.404677000] ............%BEEEEEEEEP 4
+[ 14.426809300] ............%BEEP 1
+[ 14.448405600] ............%BEEEEEEP 3
+[ 14.469429000] --- Fin Riesgos
+[ 14.485782500] >>> Inicio distancia seguridad
+[ 14.517860407] >>> Inicio Riesgos
+[ 14.535749800] ............Light: ^ON^
+[ 14.556805800] ............%BEEEEEEEEP 4
+[ 14.578937400] ............%BEEP 1
+[ 14.600534500] ............%BEEEEEEP 3
+[ 14.621557600] --- Fin Riesgos
+[ 14.637910400] --- Fin distancia seguridad volante
+[ 14.666284800] >>> Inicio Riesgos
+[ 14.684174200] ............Light: ^ON^
+[ 14.705304000] ............%BEEP 1
+[ 14.726900400] ............%BEEEEEEP 3
+[ 14.747924200] --- Fin Riesgos
+[ 14.765936700] -
+[ 14.775121900] >>> Inicio distancia seguridad
+[ 14.807101500] 
+[ 14.815774400] >>> Inicio Riesgos
+[ 14.833695100] ............Light: ^ON^
+[ 14.854823900] ............%BEEP 1
+[ 14.876419500] ............%BEEEEEEP 3
+[ 14.897443000] --- Fin Riesgos--- Fin distancia seguridad-- Fin giro volante
+[ 14.937348400] >>> Inicio giro volante
+[ 14.96
+[ 14.965739000] >>> Inicio Riesgos
+[ 14.983659000] ............Light: ^ON^
+[ 15.004788500] ............%BEEP 1
+[ 15.030578204] ............%BEEEEEEP 3
+[ 15.047407400] --- Fin Riesgos1673900] --- Fin giro 
+[ 15.075024200] >>> Inicio distancia seguridad
+[ 15.107004600] 
+[ 15.115677500] >>> Inicio Riesgos
+[ 15.133597500] ............Light: ^ON^
+[ 15.154727800] ............%BEEP 1
+[ 15.176323100] ............%BEEEEEEP 3
+[ 15.197346600] --- Fin Riesgos--- Fin distancia seguridadvolante
+[ 15.231107200] >>> Inicio giro volante
+[ 15.255508500] ---
+[ 15.265717800] >>> Inicio Riesgos
+[ 15.283638100] ............Light: ^ON^
+[ 15.304767900] ............%BEEP 1
+[ 15.326363400] ............%BEEEEEEP 3
+[ 15.347387200] --- Fin Riesgos Fin giro volante
+[ 15
+[ 15.375004400] >>> Inicio distancia seguridad
+[ 15.406983500] 
+[ 15.415656700] >>> Inicio Riesgos
+[ 15.433577000] ............Light: ^ON^
+[ 15.454706500] ............%BEEP 1
+[ 15.476302800] ............%BEEEEEEP 3
+[ 15.497326200] --- Fin Riesgos--- Fin distancia seguridad.372444100] >>> Inicio giro volante
+[ 15.549269100] --- Fin giro vo
+[ 15.565621800] >>> Inicio Riesgos
+[ 15.583541700] ............Light: ^ON^
+[ 15.604672300] ............%BEEP 1
+[ 15.626268900] ............%BEEEEEEP 3
+[ 15.647291900] --- Fin Riesgoslante.172200200] >>> I
+[ 15.674908600] >>> Inicio distancia seguridad
+[ 15.706888500] 
+[ 15.715561600] >>> Inicio Riesgos
+[ 15.733481100] ............Light: ^ON^
+[ 15.754537800] ............%BEEEEEEEEP 4
+[ 15.776669800] ............%BEEP 1
+[ 15.798266600] ............%BEEEEEEP 3
+[ 15.819290000] --- Fin Riesgos--- Fin distancia seguridad
+[ 15.849466900] >>> Inicio giro
+[ 15.865850700] >>> Inicio Riesgos
+[ 15.883771600] ............Light: ^ON^
+[ 15.904826800] ............%BEEEEEEEEP 4
+[ 15.926958300] ............%BEEP 1
+[ 15.948553800] ............%BEEEEEEP 3
+[ 15.969576900] --- Fin Riesgos
+[ 15.985930100] >>> Inicio distancia seguridad
+[ 16.017999000] >>> Inicio Riesgos
+[ 16.035888400] ............Light: ^ON^
+[ 16.056943500] ............%BEEEEEEEEP 4
+[ 16.079075800] ............%BEEP 1
+[ 16.100672900] ............%BEEEEEEP 3
+[ 16.121696300] --- Fin Riesgos
+[ 16.138049600] --- Fin distancia seguridad volante
+[ 16.166413100] >>> Inicio Riesgos
+[ 16.184302200] ............Light: ^ON^
+[ 16.205432300] ............%BEEP 1
+[ 16.227028900] ............%BEEEEEEP 3
+[ 16.248051900] --- Fin Riesgos
+[ 16.265990200] -
+[ 16.275175600] >>> Inicio distancia seguridad
+[ 16.307154400] 
+[ 16.315827100] >>> Inicio Riesgos
+[ 16.333747400] ............Light: ^ON^
+[ 16.354877600] ............%BEEP 1
+[ 16.376473800] ............%BEEEEEEP 3
+[ 16.397497600] --- Fin Riesgos--- Fin distancia seguridad-- Fin giro volante
+[ 16.437403100] >>> Inicio giro volante
+[ 16.46
+[ 16.465793700] >>> Inicio Riesg
+Interrupt!
+ Stopped at time 167145266 (1.194e+01 s)
+tsim> 
