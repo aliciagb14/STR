@@ -1,0 +1,159 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvvrnvvnnnnvvvvnvvvnnnnnnnnnnvnnnnnnnnnnnn
+
+U coche%b		coche.adb		2A10DD2B PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W conductor%s		conductor.adb		conductor.ali  ED
+W devices%s		devices.adb		devices.ali  ED
+W kernel%s		kernel.ads		kernel.ali
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali  ED
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+W tools%s		tools.adb		tools.ali  ED
+
+U coche%s		coche.ads		0E244D34 NE PK IL
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W devices%s		devices.adb		devices.ali  ED
+W kernel%s		kernel.ads		kernel.ali
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali  ED
+W system%s		system.ads		system.ali
+W tools%s		tools.adb		tools.ali  ED
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-reatim.ads		20000718095948 5DBAB303
+D a-retide.ads		20000718095948 7F3C479C
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D coche.ads		20231109173151 6553A687
+D coche.adb		20231109173153 00167FB8
+D conductor.ads		20231109173120 2422EFA7
+D devices.ads		20231109173546 76B11196
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-serial_output.ads  20010312182047 16AD38F4
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-tasres.ads		20000718095949 62B4C0AB
+D s-tarest.ads		20000718095949 1D177686
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20231107195709 7C34CB2C
+D unchconv.ads		20000718095949 72DC4539
+X 1 ada.ads
+18U9*Ada 9|2r6 2r25 10|2r6 2r25
+X 5 a-reatim.ads
+43U13*Real_Time 9|2r10 2r29 10|2r10 2r29
+45O9*Time 10|64r22 94r22 124r22 150r22 174r22
+50O9*Time_Span 10|65r18 95r18 125r18 151r18 175r18
+57U13*Clock 10|100r23 128r23
+59U13*"+" 10|89r39 100r29 117r42 128r29 145r39 169r39 204r38
+89U13*Milliseconds 10|65r31 95r31 125r31 151r31 175r31
+X 9 coche.ads
+7U9*coche 10|10b14
+8U17*PutAvisoCabeza 10|16b17 138r13 139r15
+8e32 avisoCabeza 10|16b32 18r33
+9U17*PutAvisoDistancia 10|36b17 108r17 110r19 112r17 113r18
+9i35 avisoDistancia 10|36b35 38r36
+10U17*PutAvisoVolante 10|26b17 165r13
+10e33 avisoVolante 10|26b33 28r34
+11U19*GetAvisoCabeza 10|11b16 79r14 82r17 84r17 198r14
+12U19*GetAvisoDistancia 10|31b16 69r14 72r17 79r33 183r11 186r17 189r17
+13U19*GetAvisoVolante 10|21b16 75r14 193r14
+15e7 Current_AvisoCabeza 10|13r17 18m10
+16i7 Current_AvisoDistancia 10|33r14 38m10
+17e7 Current_AvisoVolante 10|23r14 28m10
+X 10 coche.adb
+43t12 DistanciaSeguridad
+47t12 Cabeza
+51t12 GiroVolante
+55t12 Riesgos
+59t12 Display
+64O7 Sig_Instante 88r22 89m10 89r26
+65O7 Intervalo 89r41
+94O7 Sig_Instante 100m7 116r25 117m13 117r29
+95O7 Intervalo 100r31 117r44
+96i7 Current_Vel 103m13 106r46 106r90
+97i7 Current_Dist 104m13 107r17 109r20 111r20
+98i7 distSeg 106m13 107r33 109r36 111r35
+122a7 Current_Cab 131m10 132r33 136r38 136r86 137r18 142r33
+123i7 Current_GiroVolante 133m10 134r35 136r57
+124O7 Sig_Instante 128m7 144r22 145m10 145r26
+125O7 Intervalo 128r31 145r41
+126a7 lecturaAnteriorCabeza 136r115 137r47 142m10
+150O7 Sig_Instante 168r22 169m10 169r26
+151O7 Intervalo 169r41
+152i7 Current_GiroVolante 160r29 161m10 164r18
+153i7 lecturaAnterior 160m10 164r40
+155i7 Umbral_Volantazo 164r59
+156i7 VelocidadActual 162m10 164r81
+174O7 Sig_Instante 203r19 204m9 204r25
+175O7 Intervalo 204r40
+176i7 Current_Distancia
+177i7 Current_Vel
+X 11 conductor.ads
+7U9*conductor 10|7r6 7r21 82r36 103r28 104r29 131r25 132r10 133r33 134r10
+. 161r33 162r29 181r26 182r23
+8U17*PutGiroVolante 10|134r20
+11U17*PutPosCabeza 10|132r20
+13U19*GetGiroVolante 10|133r43 161r43
+14U19*GetDistancia 10|104r39 181r36
+15U19*GetVelocidad 10|82r46 103r38 162r39 182r33
+16U19*GetPosCabeza 10|131r35
+X 12 devices.ads
+5U9*devices 9|6r6 6r19 10|6r6 6r19
+56N41*x 10|137r30 137r69
+56N43*y 10|136r50 136r98 136r137
+58A10*HeadPosition_Samples_Type 10|122r20 126r31
+68I10*Distance_Samples_Type 10|97r21 98r17 106r24 106r68 176r27
+76I10*Speed_Samples_Type 10|96r20 156r24 177r21
+84I10*Steering_Samples_Type 10|123r28 136r16 152r29 153r25 155r35
+107U15*Display_Distance 10|181r9
+111U15*Display_Speed 10|182r9
+128U15*Beep 10|71r13 76r13 80r13 83r13 85r13
+132N27*On 10|70r19 73r19
+133U15*Light 10|70r13 73r13
+141U15*Activate_Brake 10|81r13
+X 13 kernel.ads
+36U9*Kernel 9|1r6 1r32 10|1r6 1r32
+X 18 kernel-serial_output.ads
+36U16*Serial_Output 9|1r13 1r39 10|1r13 1r39
+43U14*New_Line 10|185r13 188r13 191r13 195r13 197r10 200r13
+49U14*Put_Line 10|184r13 187r13 190r13 194r13 199r13
+X 21 system.ads
+46U9*System 9|3r6 3r18 10|3r6 3r18
+X 40 tools.ads
+6U9*tools 9|5r6 5r17 10|5r6 5r17
+13U15*Starting_Notice 10|68r10 102r13 130r11 159r10 180r9
+14U15*Finishing_Notice 10|87r10 115r13 141r10 167r10 202r8
+
