@@ -51,36 +51,33 @@ package body add is
       Current_AvisoVolante: boolean;
     end Sintomas;
     
-    
-    
-    
     ----------------------------------------------------------------------
 
     -----------------------------------------------------------------------
     ------------- declaration of tasks 
     -----------------------------------------------------------------------
 
-    task DistanciaSeguridad is
-        pragma priority(4);
-    end DistanciaSeguridad;
-    
-    task Cabeza is
-      pragma priority(2);
-    end Cabeza;
-    
-    task GiroVolante is
-      pragma priority(3);
-    end GiroVolante;
-
-    task Riesgos is 
-      pragma priority(5);
-    end Riesgos;
-    
-    task Display is
+   task Display is
        pragma priority(1);
     end Display;
+
+   task Cabeza is
+      pragma priority(2);
+   end Cabeza;
     
-   
+   task GiroVolante is
+      pragma priority(3);
+   end GiroVolante;
+
+
+   task DistanciaSeguridad is
+        pragma priority(4);
+   end DistanciaSeguridad;
+    
+   task Riesgos is 
+      pragma priority(5);
+   end Riesgos;
+    
 
     -----------------------------------------------------------------------
     ------------- body of tasks 
