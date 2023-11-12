@@ -8,6 +8,8 @@ with System; use System;
 with Tools; use Tools;
 with Devices; use Devices;
 
+with Ada.Interrupts.Names;
+with Pulse_Interrupt; use Pulse_Interrupt;
 
 package body add is
 
@@ -22,11 +24,11 @@ package body add is
     end Background;
 
     protected Controlador_Eventos is
-    	pragma Priority(16);
-    	procedure Interrupcion;
-    	pragma Attach_Handler(Interrupcion, 16);
+    	  pragma Priority(System.Interrupt_Priority'First + 9);
+        procedure Interrupcion;
+        pragma Attach_Handler(Interrupcion, Ada.Interrupts.Names.External_Interrupt_2);
     	
-    	entry Esperar_Evento;
+    	  entry Esperar_Evento;
     	private
     	    Llamada_Pendiente : Boolean := False;
     end Controlador_Eventos;
@@ -211,12 +213,14 @@ package body add is
     Intervalo: Time_Span := Milliseconds(1000);
     Current_Distancia : Distance_Samples_Type;
     Current_Vel : Speed_Samples_Type;
+    type ModoFuncionamiento is (M1, M2, M3);
+    Modo : ModoFuncionamiento:=M1;
     begin
     loop
         Starting_Notice("Inicio display");
         Display_Distance(Medidas.GetDistancia);
         Display_Speed(Medidas.GetVelocidad);
-      if (Modo = 1 or Modo = 3) then
+      if (Modo = ModoFuncionamiento(M2) or Modo = ModoFuncionamiento(M3)) then
          if (Sintomas.GetAvisoDistancia = 3) then
             Put_line("(*)PELIGRO COLISION");
             New_line;
@@ -236,7 +240,7 @@ package body add is
             Put_line("(*)DISTRACCION O SOMNOLENCIA");
              New_line;
          end if;
-      elsif (Modo = M2) then
+      elsif (Modo = ModoFuncionamiento(M2)) then
          if (Sintomas.GetAvisoDistancia = 3) then
             Put_line("(*)PELIGRO COLISION");
             New_line;
@@ -261,7 +265,6 @@ package body add is
 
 
     Task body Modo is
-    	procedure Interrupcion is
     	type ModoFuncionamiento is (M1, M2, M3);
     	modo : ModoFuncionamiento := M1;
       press_button : boolean := false;
@@ -285,7 +288,7 @@ package body add is
             end case;
          end if; 
 	   end loop;
-   end Modo;
+    end Modo;
     
     
     ----------------------------------------------------------------------
@@ -381,13 +384,13 @@ package body add is
 
     protected body Controlador_Eventos is
        procedure Interrupcion is
-          begin
+       begin
     	    Llamada_Pendiente := true;
-          end Interrupcion;
+       end Interrupcion;
        entry Esperar_Evento when Llamada_Pendiente is
-           begin
-              Llamada_Pendiente := false;
-       end LLamada_Pendiente;
+       begin
+          Llamada_Pendiente := false;
+       end Esperar_Evento;
     end Controlador_Eventos;
 
     
