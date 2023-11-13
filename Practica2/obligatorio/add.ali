@@ -1,0 +1,204 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvvrnvvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
+
+U add%b			add.adb			45AFCB8A PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W devices%s		devices.adb		devices.ali  ED
+W kernel%s		kernel.ads		kernel.ali
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali  ED
+W system%s		system.ads		system.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+W tools%s		tools.adb		tools.ali  ED
+
+U add%s			add.ads			204085E0 NE PK IL
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-reatim.ads		20000718095948 5DBAB303
+D a-retide.ads		20000718095948 7F3C479C
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D add.ads		20231112160922 204085E0
+D add.adb		20231113152339 0E98A5D9
+D devices.ads		20231112160922 76B11196
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-serial_output.ads  20010312182047 16AD38F4
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-imgrea.ads		20000718095949 7AFCD204
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-taprob.ads		20000718095949 1D5668B3
+D s-tasres.ads		20000718095949 62B4C0AB
+D s-tarest.ads		20000718095949 1D177686
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20231112160922 7C34CB2C
+D unchconv.ads		20000718095949 72DC4539
+X 1 ada.ads
+18U9*Ada 10|5r6 5r25
+X 5 a-reatim.ads
+43U13*Real_Time 10|5r10 5r29
+45O9*Time 10|86r20 88r7 132r20 137r7 172r20 175r7 207r20 214r7 240r20 244r7
+50O9*Time_Span 10|87r16 89r7 133r16 138r7 173r16 176r7 208r16 215r7 241r16
+. 245r7
+57U13*Clock 10|93r10 95r10 100r15 119r15 140r23 144r18 157r18 178r23 182r15
+. 193r15 220r15 228r15 250r14 272r15 438r23
+59U13*"+" 10|126r39 140r29 164r42 178r29 202r39 235r39 279r38 438r29
+62U13*"-" 10|95r16 119r21 157r24 193r21 228r21 272r21
+84U13*To_Duration 10|96r45 122r50 160r53 196r50 231r50 275r50
+85U13*To_Time_Span 10|438r31
+89U13*Milliseconds 10|87r29 94r20 133r29 173r29 208r29 241r29 294r29 301r29
+. 308r26 315r29 322r26 329r29 336r26 343r29 353r29 359r29 365r29 371r29 377r29
+. 383r29
+X 9 add.ads
+1U9*add 10|12b14
+2U13*Background 10|17b15
+X 10 add.adb
+24w15 Medidas 114r45 145r28 146r29 183r25 184r10 185r33 186r10 222r33 223r29
+. 251r26 252r23
+25U17 PutGiroVolante 186r18 298b19
+25i32 giro 298b34 300r36
+26U17 PutDistancia 312b19
+26i30 dist 312b32 314r29
+27U17 PutVelocidad 326b19
+27i30 vel 326b32 328r28
+28U17 PutPosCabeza 184r18 340b19
+28a30 cab 340b32 342r28
+30U19 GetGiroVolante 185r41 222r41 290b18
+31U19 GetDistancia 146r37 251r34 304b18
+32U19 GetVelocidad 114r53 145r36 223r37 252r31 318b18
+33U19 GetPosCabeza 183r33 332b18
+35i7 Current_GiroVolante 300r13
+36i7 Current_Vel 328r13
+37i7 Current_Dist 314r13
+38a7 Current_Cab 342r13
+41w15 Sintomas 101r14 104r17 107r14 111r14 111r42 114r17 116r17 150r17 152r19
+. 154r17 155r18 190r13 191r15 226r13 253r13 256r17 259r17 263r14 268r14
+42U17 PutAvisoCabeza 190r22 191r24 357b19
+42e32 avisoCabeza 357b34 360r36
+43U17 PutAvisoDistancia 150r26 152r28 154r26 155r27 381b19
+43i35 avisoDistancia 381b37 384r39
+44U17 PutAvisoVolante 226r22 369b19
+44e33 avisoVolante 369b35 372r37
+45U19 GetAvisoCabeza 111r23 114r26 116r26 268r23 351b18
+46U19 GetAvisoDistancia 101r23 104r26 111r51 253r22 256r26 259r26 375b18
+47U19 GetAvisoVolante 107r23 263r23 363b18
+49e7 Current_AvisoCabeza 354r20 360r13
+50i7 Current_AvisoDistancia 378r20 384r13
+51e7 Current_AvisoVolante 366r20 372r13
+60t9 Display
+64t9 Cabeza
+68t9 GiroVolante
+73t9 DistanciaSeguridad
+77t9 Riesgos
+86O5 Sig_Instante 125r22 126m10 126r26
+87O5 Intervalo 126r41
+88O5 i 93m5 95r18 100m10 119r23
+89O5 D 95m5 96r57 119m10 122r62
+132O5 Sig_Instante 140m7 163r25 164m13 164r29
+133O5 Intervalo 140r31 164r44
+134i5 Current_Vel 145m13 148r46 148r90
+135i5 Current_Dist 146m13 149r17 151r20 153r20
+136i5 distSeg 148m13 149r33 151r36 153r35
+137O5 i 144m13 157r26
+138O5 D 157m13 160r65
+170a5 Current_Cab 183m10 184r31 188r38 188r86 189r18 199r33
+171i5 Current_GiroVolante 185m10 186r33 188r57
+172O5 Sig_Instante 178m7 201r22 202m10 202r26
+173O5 Intervalo 178r31 202r41
+174a5 lecturaAnteriorCabeza 188r115 189r47 199m10
+175O5 i 182m10 193r23
+176O5 D 193m10 196r62
+207O5 Sig_Instante 234r22 235m10 235r26
+208O5 Intervalo 235r41
+209i5 Current_GiroVolante 221r29 222m10 225r18
+210i5 lecturaAnterior 221m10 225r40
+212i5 Umbral_Volantazo 225r59
+213i5 VelocidadActual 223m10 225r81
+214O5 i 220m10 228r23
+215O5 D 228m10 231r62
+240O5 Sig_Instante 278r21 279m9 279r25
+241O5 Intervalo 279r40
+242i5 Current_Distancia
+243i5 Current_Vel
+244O5 i 250m9 272r23
+245O5 D 272m10 275r62
+291i9 Current_GiroVolante 293m31 295r20
+305i9 Current_Dist 307m27 309r17
+319i9 Current_vel 321m24 323r17
+333a9 Current_Cab 335m31 337r17
+394U15 Prueba_Dispositivos 396b15
+406i14 I
+X 11 devices.ads
+5U9*devices 10|9r6 9r19
+56N41*x 10|189r30 189r69
+56N43*y 10|188r50 188r98 188r137
+58A10*HeadPosition_Samples_Type 10|28r36 33r39 38r20 170r18 174r29 332r38
+. 333r23 340r38
+61U15*Reading_HeadPosition 10|335r10
+68I10*Distance_Samples_Type 10|26r37 31r39 37r21 135r19 136r15 148r24 148r68
+. 242r25 304r38 305r24 312r39
+70U15*Reading_Distance 10|307r10
+76I10*Speed_Samples_Type 10|27r36 32r39 36r20 134r18 213r22 243r19 318r38
+. 319r23 326r38
+78U15*Reading_Speed 10|321r10
+84I10*Steering_Samples_Type 10|25r39 30r41 35r28 171r26 188r16 209r27 210r23
+. 212r33 290r40 291r31 298r42
+86U15*Reading_Steering 10|293r13
+107U15*Display_Distance 10|251r9
+111U15*Display_Speed 10|252r9
+128U15*Beep 10|103r13 108r13 112r13 115r13 117r13
+132N27*On 10|102r19 105r19
+133U15*Light 10|102r13 105r13
+141U15*Activate_Brake 10|113r13
+X 12 kernel.ads
+36U9*Kernel 10|4r6 4r32 96r5 122r10 160r13 196r10 231r10 275r10
+X 17 kernel-serial_output.ads
+36U16*Serial_Output 10|4r13 4r39 96r12 122r17 160r20 196r17 231r17 275r17
+41U14*Put 10|96r26 122r31 160r34 196r31 231r31 275r31
+43U14*New_Line 10|120r10 158r13 194r10 229r10 255r13 258r13 261r13 265r13
+. 267r10 270r13 273r10
+49U14*Put_Line 10|121r10 159r13 195r10 230r10 254r13 257r13 260r13 264r13
+. 269r13 274r10
+X 20 system.ads
+46U9*System 10|6r6 6r18
+X 41 tools.ads
+6U9*tools 10|8r6 8r17
+13U15*Starting_Notice 10|99r10 143r13 181r10 219r10 249r9 404r10 446r4
+14U15*Finishing_Notice 10|123r10 161r13 198r10 232r10 276r10 441r10 448r4
+15U15*Execution_Time 10|94r5 294r13 301r13 308r10 315r13 322r10 329r13 336r10
+. 343r13 353r13 359r13 365r13 371r13 377r13 383r13
+
